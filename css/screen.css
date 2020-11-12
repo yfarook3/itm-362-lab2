@@ -29,13 +29,39 @@ label{
 input{
 	background-color: #f0ffff;
 	width: 80%;
-	margin: 7px 0;
-	padding: 14px 22px;
+	margin: 10px 0;
+	padding: 10px 20px;
 	box-sizing: border-box;
+	border: none;
 }
 
 input[type=submit]{
 	margin-left: auto;
-	width: 70%;
+	width: 80%;
 }
 
+@media only screen and (min-width: 460px){
+	body{
+		background-color: #FFD700;
+	}
+	input{
+		width: 75%;
+	}
+	input[type=submit]{
+	width: 75%
+	margin-left: auto;
+	}
+}
+@media only screen and (min-width: 800px){
+	body{
+		background-color: #FFD700;
+	}
+	input{
+		width: 75%;
+	}
+	input[type=submit]{
+	width: 45%;
+	margin-left: auto;
+	}
+}
+	
